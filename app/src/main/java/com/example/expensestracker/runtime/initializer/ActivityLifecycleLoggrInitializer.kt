@@ -7,7 +7,7 @@ import com.wisnu.foundation.liblifecycleloggr.ActivityLifecycleLoggr
 class ActivityLifecycleLoggrInitializer : Initializer<ActivityLifecycleLoggr> {
     override fun create(context: Context): ActivityLifecycleLoggr {
         return ActivityLifecycleLoggr().also {
-            (context.applicationContext as com.example.expensestracker.runtime.WalleeApp)
+            (context.applicationContext as com.example.expensestracker.runtime.ExpenseTracker)
                 .registerActivityLifecycleCallbacks(it)
         }
     }
