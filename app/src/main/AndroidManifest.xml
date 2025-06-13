@@ -34,8 +34,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="com.wisnu.kurniawan"
-                    android:scheme="wallee" />
+                    android:host="com.example"
+                    android:scheme="expensestracker" />
             </intent-filter>
         </activity>
 
@@ -54,10 +54,10 @@
             android:exported="false"
             tools:node="merge">
             <meta-data
-                android:name="com.wisnu.kurniawan.expensestracker.runtime.initializer.DebugToolsInitializer"
+                android:name="com.example.expensestracker.runtime.initializer.DebugToolsInitializer"
                 android:value="androidx.startup" />
             <meta-data
-                android:name="com.wisnu.kurniawan.expensestracker.runtime.initializer.ActivityLifecycleLoggrInitializer"
+                android:name="com.example.expensestracker.runtime.initializer.ActivityLifecycleLoggrInitializer"
                 android:value="androidx.startup" />
         </provider>
     </application>
