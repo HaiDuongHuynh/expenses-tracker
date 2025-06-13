@@ -34,7 +34,7 @@ ext.codeCoverage = [
 ]
 
 android {
-    namespace 'com.wisnu.kurniawan.wallee'
+    namespace 'com.example.expensestracker'
 
     defaultConfig {
         minSdkVersion project.ext.minSdkVersion

@@ -54,10 +54,10 @@
             android:exported="false"
             tools:node="merge">
             <meta-data
-                android:name="com.wisnu.kurniawan.wallee.runtime.initializer.DebugToolsInitializer"
+                android:name="com.wisnu.kurniawan.expensestracker.runtime.initializer.DebugToolsInitializer"
                 android:value="androidx.startup" />
             <meta-data
-                android:name="com.wisnu.kurniawan.wallee.runtime.initializer.ActivityLifecycleLoggrInitializer"
+                android:name="com.wisnu.kurniawan.expensestracker.runtime.initializer.ActivityLifecycleLoggrInitializer"
                 android:value="androidx.startup" />
         </provider>
     </application>

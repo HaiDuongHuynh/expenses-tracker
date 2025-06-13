@@ -1,1 +1,1 @@
--keep class com.wisnu.kurniawan.wallee.model.** { *; }
+-keep class com.wisnu.kurniawan.expensestracker.model.** { *; }
