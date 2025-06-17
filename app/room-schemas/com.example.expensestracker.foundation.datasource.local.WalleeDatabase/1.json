@@ -58,10 +58,10 @@
           }
         ],
         "primaryKey": {
+          "autoGenerate": false,
           "columnNames": [
             "account_id"
-          ],
-          "autoGenerate": false
+          ]
         },
         "indices": [
           {
@@ -154,10 +154,10 @@
           }
         ],
         "primaryKey": {
+          "autoGenerate": false,
           "columnNames": [
             "transaction_id"
-          ],
-          "autoGenerate": false
+          ]
         },
         "indices": [
           {
@@ -214,10 +214,10 @@
           }
         ],
         "primaryKey": {
+          "autoGenerate": false,
           "columnNames": [
             "account_record_id"
-          ],
-          "autoGenerate": false
+          ]
         },
         "indices": [
           {
@@ -274,10 +274,10 @@
           }
         ],
         "primaryKey": {
+          "autoGenerate": false,
           "columnNames": [
             "transaction_record_id"
-          ],
-          "autoGenerate": false
+          ]
         },
         "indices": [
           {
