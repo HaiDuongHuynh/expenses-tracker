@@ -17,7 +17,6 @@ import com.example.expensestracker.runtime.navigation.home.HomeNavHost
 import com.example.expensestracker.runtime.navigation.home.LargeHomeNavHost
 
 const val MinLargeScreenWidth = 585
-const val BASE_DEEPLINK = "wallee://com.wisnu.kurniawan"
 
 @Composable
 fun MainNavHost(windowState: com.example.expensestracker.foundation.window.WindowState) {

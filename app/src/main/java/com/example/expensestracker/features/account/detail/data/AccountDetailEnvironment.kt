@@ -16,6 +16,7 @@ import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.take
+import javax.inject.Inject
 
 class AccountDetailEnvironment @Inject constructor(
     private val localManager: LocalManager,

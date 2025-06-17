@@ -8,11 +8,11 @@ import com.example.expensestracker.foundation.datasource.preference.LanguagePref
 import com.example.expensestracker.foundation.datasource.preference.OnboardingPreferenceSerializer
 import com.example.expensestracker.foundation.datasource.preference.ThemePreferenceSerializer
 import com.example.expensestracker.foundation.datasource.preference.UserPreferenceSerializer
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.CredentialPreference
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.LanguagePreference
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.OnboardingPreference
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.ThemePreference
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.UserPreference
+import com.example.expensestracker.foundation.datasource.preference.model.CredentialPreference
+import com.example.expensestracker.foundation.datasource.preference.model.LanguagePreference
+import com.example.expensestracker.foundation.datasource.preference.model.OnboardingPreference
+import com.example.expensestracker.foundation.datasource.preference.model.ThemePreference
+import com.example.expensestracker.foundation.datasource.preference.model.UserPreference
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
