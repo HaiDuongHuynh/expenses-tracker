@@ -2,7 +2,7 @@ package com.example.expensestracker.features.onboarding.ui
 
 import androidx.lifecycle.viewModelScope
 import com.example.expensestracker.features.onboarding.data.IOnboardingEnvironment
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import com.example.expensestracker.foundation.currency.COUNTRY_DATA
 import com.example.expensestracker.foundation.currency.CURRENCY_DATA
 import com.example.expensestracker.foundation.emoji.EmojiData

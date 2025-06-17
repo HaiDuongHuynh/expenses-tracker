@@ -15,7 +15,7 @@ import com.example.expensestracker.foundation.theme.SunrisePrimary
 import com.example.expensestracker.foundation.theme.TwilightItemBackgroundL1
 import com.example.expensestracker.foundation.theme.TwilightPrimary
 import com.example.expensestracker.model.Theme
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import com.example.expensestracker.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

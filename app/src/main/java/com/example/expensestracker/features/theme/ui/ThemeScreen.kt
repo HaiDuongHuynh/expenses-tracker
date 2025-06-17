@@ -1,6 +1,5 @@
 package com.example.expensestracker.features.theme.ui
 
-import android.R
 import android.annotation.SuppressLint
 import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme

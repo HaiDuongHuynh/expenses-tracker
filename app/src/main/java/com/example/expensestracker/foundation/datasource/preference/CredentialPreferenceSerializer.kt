@@ -2,7 +2,7 @@ package com.example.expensestracker.foundation.datasource.preference
 
 import androidx.datastore.core.CorruptionException
 import androidx.datastore.core.Serializer
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.CredentialPreference
+import com.example.expensestracker.foundation.datasource.preference.model.CredentialPreference
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

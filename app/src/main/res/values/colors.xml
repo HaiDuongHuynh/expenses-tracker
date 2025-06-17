@@ -38,4 +38,9 @@
     <color name="aurora_on">#D0E0CF</color>
 
     <color name="error">#B00020</color>
+
+    <color name="system_accent1_200">#76D1FF</color>
+    <color name="system_accent2_700">#374955</color>
+    <color name="system_accent1_600">#00668B</color>
+    <color name="system_accent2_100">#D1E5F4</color>
 </resources>

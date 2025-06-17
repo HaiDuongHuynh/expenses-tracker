@@ -13,7 +13,7 @@ import com.example.expensestracker.model.TransactionRecord
 import com.example.expensestracker.model.TransactionType
 import com.example.expensestracker.model.TransactionWithAccount
 import com.google.firebase.analytics.FirebaseAnalytics
-import com.wisnu.foundation.libanalyticsmanager.AnalyticsManager
+import com.example.expensestracker.foundation.libanalyticsmanager.AnalyticsManager
 
 import java.math.BigDecimal
 import java.time.LocalDateTime

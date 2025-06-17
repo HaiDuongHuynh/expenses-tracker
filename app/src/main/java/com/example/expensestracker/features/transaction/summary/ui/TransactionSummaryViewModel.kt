@@ -5,7 +5,7 @@ import com.example.expensestracker.features.transaction.summary.data.ITransactio
 import com.example.expensestracker.runtime.navigation.ARG_TRANSACTION_ID
 import com.example.expensestracker.runtime.navigation.TransactionDetailFlow
 import com.example.expensestracker.runtime.navigation.home.TransactionSummaryFlow
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.launch

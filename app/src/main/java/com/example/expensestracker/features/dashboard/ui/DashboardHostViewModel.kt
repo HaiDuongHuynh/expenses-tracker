@@ -6,7 +6,7 @@ import androidx.compose.material.icons.rounded.Wallet
 import androidx.lifecycle.viewModelScope
 import com.example.expensestracker.runtime.navigation.home.BalanceSummaryFlow
 import com.example.expensestracker.runtime.navigation.home.TransactionSummaryFlow
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import com.example.expensestracker.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

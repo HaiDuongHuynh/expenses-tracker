@@ -1,6 +1,6 @@
 package com.example.expensestracker.foundation.extension
 
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.LanguagePreference
+import com.example.expensestracker.foundation.datasource.preference.model.LanguagePreference
 
 fun LanguagePreference.toLanguage(): com.example.expensestracker.model.Language {
     return when (this.code) {

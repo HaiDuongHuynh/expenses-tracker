@@ -6,7 +6,7 @@ import com.example.expensestracker.foundation.extension.getDefaultAccount
 import com.example.expensestracker.runtime.navigation.ARG_ACCOUNT_ID
 import com.example.expensestracker.runtime.navigation.AccountDetailFlow
 import com.example.expensestracker.runtime.navigation.home.TransactionSummaryFlow
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.launch

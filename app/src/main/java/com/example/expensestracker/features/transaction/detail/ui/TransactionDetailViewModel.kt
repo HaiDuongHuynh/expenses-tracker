@@ -18,7 +18,7 @@ import com.example.expensestracker.model.Transaction
 import com.example.expensestracker.model.TransactionType
 import com.example.expensestracker.model.TransactionWithAccount
 import com.example.expensestracker.runtime.navigation.ARG_TRANSACTION_ID
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import com.example.expensestracker.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import java.time.LocalDateTime

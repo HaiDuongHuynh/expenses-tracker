@@ -3,7 +3,7 @@ package com.example.expensestracker.features.localized.ui
 import androidx.lifecycle.viewModelScope
 import com.example.expensestracker.features.localized.data.ILocalizedEnvironment
 import com.example.expensestracker.model.Language
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import com.example.expensestracker.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

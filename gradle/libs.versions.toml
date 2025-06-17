@@ -80,16 +80,16 @@ lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", versio
 squareup-okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 squareup-retrofit-converter = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
 squareup-retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
-hai-foundation-core-analytics = { group = "com.github.HaiDuongHuynhfoundation", name = "core-analytics", version.ref = "haiFoundation" }
-hai-foundation-core-datetime = { group = "com.github.HaiDuongHuynhfoundation", name = "core-date-time", version.ref = "haiFoundation" }
-hai-foundation-core-json = { group = "com.github.HaiDuongHuynhfoundation", name = "core-json", version.ref = "haiFoundation" }
-hai-foundation-core-loggr = { group = "com.github.HaiDuongHuynhfoundation", name = "core-loggr", version.ref = "haiFoundation" }
-hai-foundation-core-ui = { group = "com.github.HaiDuongHuynhfoundation", name = "core-ui", version.ref = "haiFoundation" }
-hai-foundation-core-viewmodel = { group = "com.github.HaiDuongHuynhfoundation", name = "core-viewmodel", version.ref = "haiFoundation" }
-hai-foundation-lib-analyticsmanager = { group = "com.github.HaiDuongHuynhfoundation", name = "lib-analytics-manager", version.ref = "haiFoundation" }
-hai-foundation-lib-lifecycleloggr = { group = "com.github.HaiDuongHuynhfoundation", name = "lib-lifecycle-loggr", version.ref = "haiFoundation" }
-hai-foundation-test-debugnoop = { group = "com.github.HaiDuongHuynhfoundation", name = "test-debug-no-op", version.ref = "haiFoundation" }
-hai-foundation-test-debug = { group = "com.github.HaiDuongHuynhfoundation", name = "test-debug", version.ref = "haiFoundation" }
+hai-foundation-core-analytics = { group = "com.github.HaiDuongHuynh.foundation", name = "core-analytics", version.ref = "haiFoundation" }
+hai-foundation-core-datetime = { group = "com.github.HaiDuongHuynh.foundation", name = "core-date-time", version.ref = "haiFoundation" }
+hai-foundation-core-json = { group = "com.github.HaiDuongHuynh.foundation", name = "core-json", version.ref = "haiFoundation" }
+hai-foundation-core-loggr = { group = "com.github.HaiDuongHuynh.foundation", name = "core-loggr", version.ref = "haiFoundation" }
+hai-foundation-core-ui = { group = "com.github.HaiDuongHuynh.foundation", name = "core-ui", version.ref = "haiFoundation" }
+hai-foundation-core-viewmodel = { group = "com.github.HaiDuongHuynh.foundation", name = "core-viewmodel", version.ref = "haiFoundation" }
+hai-foundation-lib-analyticsmanager = { group = "com.github.HaiDuongHuynh.foundation", name = "lib-analytics-manager", version.ref = "haiFoundation" }
+hai-foundation-lib-lifecycleloggr = { group = "com.github.HaiDuongHuynh.foundation", name = "lib-lifecycle-loggr", version.ref = "haiFoundation" }
+hai-foundation-test-debugnoop = { group = "com.github.HaiDuongHuynh.foundation", name = "test-debug-no-op", version.ref = "haiFoundation" }
+hai-foundation-test-debug = { group = "com.github.HaiDuongHuynh.foundation", name = "test-debug", version.ref = "haiFoundation" }
 
 debugging-chucker = { group = "com.github.chuckerteam.chucker", name = "library", version = "4.0.0" }
 debugging-compose-uiTooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "androidxCompose" }

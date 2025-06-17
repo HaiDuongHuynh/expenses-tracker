@@ -11,7 +11,7 @@ import com.example.expensestracker.foundation.extension.formatAsBigDecimal
 import com.example.expensestracker.foundation.extension.formattedAmount
 import com.example.expensestracker.model.AccountType
 import com.example.expensestracker.runtime.navigation.ARG_ACCOUNT_ID
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow

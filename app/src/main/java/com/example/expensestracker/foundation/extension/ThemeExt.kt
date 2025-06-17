@@ -1,6 +1,6 @@
 package com.example.expensestracker.foundation.extension
 
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.ThemePreference
+import com.example.expensestracker.foundation.datasource.preference.model.ThemePreference
 
 
 fun ThemePreference.toTheme() = when (this.value) {

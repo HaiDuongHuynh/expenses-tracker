@@ -2,7 +2,7 @@ package com.example.expensestracker.features.login.ui
 
 import androidx.lifecycle.viewModelScope
 import com.example.expensestracker.features.login.data.ILoginEnvironment
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.filter

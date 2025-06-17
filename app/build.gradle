@@ -40,7 +40,7 @@ android {
     defaultConfig {
         minSdkVersion project.ext.minSdkVersion
         targetSdkVersion project.ext.targetSdkVersion
-        applicationId project.ext.appId
+        applicationId "com.example.expensestracker"
         versionCode project.ext.versionCode
         versionName project.ext.versionName
         compileSdk project.ext.compileSdkVersion
@@ -97,9 +97,9 @@ android {
             matchingFallbacks = ['release']
             proguardFiles("benchmark-rules.pro")
         }
-        debug {
-            applicationIdSuffix ".debug"
-        }
+//        debug {
+//            applicationIdSuffix ".debug"
+//        }
     }
 
     buildFeatures {
@@ -156,7 +156,7 @@ dependencies {
     ///////////////
     // UI SUPPORT
     //////
-
+    implementation "androidx.core:core-ktx:1.13.1"
     implementation libs.androidx.core.ktx
     implementation libs.androidx.window
     implementation libs.androidx.appcompat
@@ -167,7 +167,7 @@ dependencies {
     implementation libs.androidx.hilt.navigation.compose
     implementation libs.lottie.compose
     implementation libs.google.material
-    implementation libs.hai.foundation.core.viewmodel
+    //implementation libs.hai.foundation.core.viewmodel
 
     implementation libs.google.accompanist.systemuicontroller
 
@@ -219,19 +219,19 @@ dependencies {
 
     // Date time
     coreLibraryDesugaring(libs.android.desugarJdkLibs)
-    implementation libs.hai.foundation.core.datetime
+    //implementation libs.hai.foundation.core.datetime
 
     // Logger
-    implementation libs.hai.foundation.core.loggr
-    implementation libs.hai.foundation.lib.lifecycleloggr
+//    implementation libs.hai.foundation.core.loggr
+//    implementation libs.hai.foundation.lib.lifecycleloggr
 
     // Analytics
     implementation platform(libs.google.firebase)
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-perf'
     implementation 'com.google.firebase:firebase-crashlytics'
-    implementation libs.hai.foundation.core.analytics
-    implementation libs.hai.foundation.lib.analyticsmanager
+    //implementation libs.hai.foundation.core.analytics
+    //implementation libs.hai.foundation.lib.analyticsmanager
 
     ///////////////
     // DEBUGGING SUPPORT
@@ -239,9 +239,9 @@ dependencies {
 
     implementation libs.debugging.compose.uiTooling
 
-    debugImplementation libs.hai.foundation.test.debug
-    releaseImplementation libs.hai.foundation.test.debugnoop
-    benchmarkImplementation libs.hai.foundation.test.debugnoop
+//    debugImplementation libs.hai.foundation.test.debug
+//    releaseImplementation libs.hai.foundation.test.debugnoop
+//    benchmarkImplementation libs.hai.foundation.test.debugnoop
 
 
     ///////////////

@@ -2,7 +2,7 @@ package com.example.expensestracker.features.dashboard.ui
 
 import androidx.lifecycle.viewModelScope
 import com.example.expensestracker.features.dashboard.data.IDashboardEnvironment
-import com.wisnu.foundation.coreviewmodel.StatefulViewModel
+import com.example.expensestracker.foundation.coreviewmodel.StatefulViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.launch

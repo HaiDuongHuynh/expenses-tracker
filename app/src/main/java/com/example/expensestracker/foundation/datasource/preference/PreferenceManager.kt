@@ -8,11 +8,11 @@ import com.example.expensestracker.model.Credential
 import com.example.expensestracker.model.Language
 import com.example.expensestracker.model.Theme
 import com.example.expensestracker.model.User
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.CredentialPreference
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.LanguagePreference
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.OnboardingPreference
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.ThemePreference
-import com.wisnu.kurniawan.expensestracker.foundation.datasource.preference.model.UserPreference
+import com.example.expensestracker.foundation.datasource.preference.model.CredentialPreference
+import com.example.expensestracker.foundation.datasource.preference.model.LanguagePreference
+import com.example.expensestracker.foundation.datasource.preference.model.OnboardingPreference
+import com.example.expensestracker.foundation.datasource.preference.model.ThemePreference
+import com.example.expensestracker.foundation.datasource.preference.model.UserPreference
 import javax.inject.Inject
 import javax.inject.Named
 import kotlinx.coroutines.CoroutineDispatcher
