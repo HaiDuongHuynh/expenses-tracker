@@ -13,6 +13,7 @@ plugins {
     id 'org.jetbrains.kotlin.plugin.compose'
 }
 
+
 apply from: "$rootDir/gradle/test-report.gradle"
 
 ext.codeCoverage = [
@@ -166,7 +167,7 @@ dependencies {
     implementation libs.androidx.hilt.navigation.compose
     implementation libs.lottie.compose
     implementation libs.google.material
-    implementation libs.wisnu.foundation.core.viewmodel
+    implementation libs.hai.foundation.core.viewmodel
 
     implementation libs.google.accompanist.systemuicontroller
 
@@ -218,19 +219,19 @@ dependencies {
 
     // Date time
     coreLibraryDesugaring(libs.android.desugarJdkLibs)
-    implementation libs.wisnu.foundation.core.datetime
+    implementation libs.hai.foundation.core.datetime
 
     // Logger
-    implementation libs.wisnu.foundation.core.loggr
-    implementation libs.wisnu.foundation.lib.lifecycleloggr
+    implementation libs.hai.foundation.core.loggr
+    implementation libs.hai.foundation.lib.lifecycleloggr
 
     // Analytics
     implementation platform(libs.google.firebase)
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-perf'
     implementation 'com.google.firebase:firebase-crashlytics'
-    implementation libs.wisnu.foundation.core.analytics
-    implementation libs.wisnu.foundation.lib.analyticsmanager
+    implementation libs.hai.foundation.core.analytics
+    implementation libs.hai.foundation.lib.analyticsmanager
 
     ///////////////
     // DEBUGGING SUPPORT
@@ -238,9 +239,9 @@ dependencies {
 
     implementation libs.debugging.compose.uiTooling
 
-    debugImplementation libs.wisnu.foundation.test.debug
-    releaseImplementation libs.wisnu.foundation.test.debugnoop
-    benchmarkImplementation libs.wisnu.foundation.test.debugnoop
+    debugImplementation libs.hai.foundation.test.debug
+    releaseImplementation libs.hai.foundation.test.debugnoop
+    benchmarkImplementation libs.hai.foundation.test.debugnoop
 
 
     ///////////////

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Quản lý Tài Chính</string>
+
+    <string name="show_more">Xem thêm</string>
+    <string name="add">Thêm</string>
+    <string name="welcome">Chào Mừng!</string>
+
+    <string name="login_login">Đăng nhập</string>
+    <string name="login_email">Email</string>
+    <string name="login_email_invalid">Email không hợp lệ</string>
+    <string name="login_password">Mật khẩu</string>
+
+    <string name="category">Thể loại</string>
+    <string name="category_monthly_fee">Phí hàng tháng</string>
+    <string name="category_admin_fee">Phí quản lí</string>
+    <string name="category_pets">Phí vật nuôi</string>
+    <string name="category_donations">Quyên góp</string>
+    <string name="category_education">Giáo dục</string>
+    <string name="category_financial">Tài chính</string>
+    <string name="category_entertainment">Giải trí</string>
+    <string name="category_children_needs">Đồ dùng trẻ em</string>
+    <string name="category_household_needs">Đồ dùng trong nhà</string>
+    <string name="category_sport">Thể thao</string>
+    <string name="category_others">Khác</string>
+    <string name="category_food">Ăn uống</string>
+    <string name="category_parking">Đỗ xe</string>
+    <string name="category_fuel">Xăng</string>
+    <string name="category_movie">Xem phim</string>
+    <string name="category_automotive">Ô tô</string>
+    <string name="category_tax">Thuế</string>
+    <string name="category_income">Thu nhập</string>
+    <string name="category_business_expenses">Chi phí kinh doanh</string>
+    <string name="category_self_care">Chăm sóc bản thân</string>
+    <string name="category_loan">Vay</string>
+    <string name="category_service">Dịch vụ</string>
+    <string name="category_shopping">Mua sắm</string>
+    <string name="category_bills">Tiện ích</string>
+    <string name="category_taxi">Taxi</string>
+    <string name="category_cash_withdrawal">Rút tiền mặt</string>
+    <string name="category_phone">Điện thoại</string>
+    <string name="category_top_up">E-wallet</string>
+    <string name="category_public_transportation">Phương tiện công cộng</string>
+    <string name="category_travel">Du lịch</string>
+    <string name="category_uncategorized">Chưa phân loại</string>
+    <string name="category_recent">Nhiều nhất</string>
+    <string name="category_all">Toàn bộ thể loại</string>
+
+    <string name="account_e_wallet">E-wallet</string>
+    <string name="account_bank">Ngân hàng</string>
+    <string name="account_cash">Tiền mặt</string>
+    <string name="account_investment">Đầu tư</string>
+    <string name="account_others">Khác</string>
+
+    <string name="setting_title">Màn hình chính</string>
+    <string name="setting_theme">Chủ đề</string>
+    <string name="setting_theme_automatic">Tự động</string>
+    <string name="setting_theme_wallpaper" translatable="false">Hình nền</string>
+    <string name="setting_theme_light">Daylight</string>
+    <string name="setting_theme_twilight">Twilight</string>
+    <string name="setting_theme_night">Midnight</string>
+    <string name="setting_theme_sunrise">Sunrise</string>
+    <string name="setting_theme_aurora">Aurora</string>
+    <string name="setting_logout">Đăng xuất</string>
+    <string name="setting_logout_confirm">Đăng xuất?</string>
+    <string name="setting_language">Ngôn ngữ</string>
+    <string name="setting_language_english" translatable="false">English</string>
+    <string name="setting_language_indonesia" translatable="false">Bahasa Indonesia</string>
+    <string name="setting_language_vietnam" translatable="false">Vietnamese</string>
+
+    <string name="dashboard_transaction">Giao dịch</string>
+    <string name="dashboard_balance">Tiền dư</string>
+
+    <string name="transaction_expense">Chi phí</string>
+    <string name="transaction_income">Thu nhập</string>
+    <string name="transaction_transfer">Chuyển khoản</string>
+    <string name="transaction_edit_save">Lưu</string>
+    <string name="transaction_edit_cancel">Hủy</string>
+    <string name="transaction_edit_add">Thêm Chi Phí</string>
+    <string name="transaction_edit_expense">Sửa Chu Phí</string>
+    <string name="transaction_edit_income">Sửa Thu Nhập</string>
+    <string name="transaction_edit_transfer">Sửa Chuyển Khoản</string>
+    <string name="transaction_edit_total">Tổng cộng</string>
+    <string name="transaction_edit_general">Tổng quan</string>
+    <string name="transaction_edit_account">Tài Khoản</string>
+    <string name="transaction_edit_account_from">Tài Khoản Từ</string>
+    <string name="transaction_edit_account_to">Tài Khoản Đến</string>
+    <string name="transaction_edit_date_transaction">Ngày Chi Phí</string>
+    <string name="transaction_edit_note">Ghi Chú (Tùy ý)</string>
+    <string name="transaction_edit_note_expense_hint">Example \"Buy fried chicken &amp; tea\"</string>
+    <string name="transaction_edit_note_income_hint">Example \"For saving\"</string>
+    <string name="transaction_edit_note_transfer_hint">Example \"For subscription this month\"</string>
+    <string name="transaction_summary">Tóm tắt</string>
+    <string name="transaction_cash_flow" translatable="false">Dòng Tiền</string>
+    <string name="transaction_this_month">Tháng này</string>
+    <string name="transaction_last">Chi Phí gần đây</string>
+    <string name="transaction_last_no_data_title">Tiếp tục tạo giao dịch</string>
+    <string name="transaction_last_no_data_message">Hiện 5 giao dịch gần đây.</string>
+    <string name="transaction_top_expenses">Chi phí hàng đầu</string>
+    <string name="transaction_top_expenses_no_data_message">Hiện top 5 giao dịch của thể loại chi phí này</string>
+    <string name="transaction_edit_delete">Xóa giao dịch</string>
+    <string name="transaction_account_deleted">[Tài khoản xóa]</string>
+
+    <string name="all_transaction_headline">Giao Dịch</string>
+    <string name="all_transaction_empty">Giao Dịch Trống</string>
+
+    <string name="account_edit_add">Thêm Tài Khoản</string>
+    <string name="account_edit_edit">Sửa Tài Khoản</string>
+    <string name="account_edit_balance">Tiền dư hiện tại</string>
+    <string name="account_edit_select_category">Chọn thể loại</string>
+    <string name="account_edit_name">Tên</string>
+    <string name="account_edit_name_hint">Bắt buộc</string>
+    <string name="account_edit_name_duplicate">Bạn đã có tài khoản với tên này</string>
+    <string name="account_edit_delete">Xóa Tài Khoản</string>
+
+    <string name="balance_all_time">Tổng tiền dư</string>
+    <string name="balance_total_transaction">%1$s Chi Phí</string>
+    <string name="balance_account_updated_at_second">Cập nhập một lúc trước</string>
+    <string name="balance_account_updated_at_minute">Cập nhập %1$s phút trước</string>
+    <string name="balance_account_updated_at_hour">Cập nhập %1$s tiếng trước</string>
+    <string name="balance_account_updated_at_yesterday">Cập nhập hôm qua</string>
+    <string name="balance_account_updated_at_date">Cập nhập %1$s</string>
+    <string name="balance_account_amount_change_title">Lí do cập nhập</string>
+    <string name="balance_account_amount_change_initial_reason">Chưa theo dõi trong một thời gian dài</string>
+    <string name="balance_account_amount_change_initial_reason_desc">Sẽ thay đổi số dư ban đầu trong tài khoản của bạn.</string>
+    <string name="balance_account_amount_change_by_record_reason">Quên theo dõi một vài giao dịch</string>
+    <string name="balance_account_amount_change_by_record_reason_desc">Sẽ tạo giao dịch sửa lỗi cho nó.</string>
+
+    <string name="onboarding_title">Chọn loại tiền tệ của quốc gia bạn</string>
+
+</resources>

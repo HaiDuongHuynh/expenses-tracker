@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:200125870343:android:0c66b6ab3adfed4788d5a2",
         "android_client_info": {
-          "package_name": "com.wisnu.kurniawan.wallee"
+          "package_name": "com.example.expensestracker"
         }
       },
       "oauth_client": [
