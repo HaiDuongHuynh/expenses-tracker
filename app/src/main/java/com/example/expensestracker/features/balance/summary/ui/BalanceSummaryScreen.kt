@@ -20,6 +20,7 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -73,6 +74,7 @@ private fun BalanceSummaryScreen(
     onClickAccount: (Account) -> Unit,
     onClickAddAccount: () -> Unit,
 ) {
+    val totalBalanceDouble = state.getTotalBalanceDisplay().toDoubleOrNull()
     PgPageLayout(
         modifier = Modifier.fillMaxSize()
     ) {
@@ -102,6 +104,20 @@ private fun BalanceSummaryScreen(
 
             item(span = { GridItemSpan(maxLineSpan) }) {
                 SpacerSection()
+            }
+
+            // Show warning if total balance is negative
+            if (totalBalanceDouble != null && totalBalanceDouble < 0) {
+                item(span = { GridItemSpan(maxLineSpan) }) {
+                    Text(
+                        text = stringResource(R.string.warning_negative_balance),
+                        color = MaterialTheme.colorScheme.error,
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier
+                            .padding(horizontal = 16.dp)
+                            .fillMaxWidth()
+                    )
+                }
             }
 
             AccountCell(

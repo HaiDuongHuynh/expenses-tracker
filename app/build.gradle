@@ -167,7 +167,6 @@ dependencies {
     implementation libs.androidx.hilt.navigation.compose
     implementation libs.lottie.compose
     implementation libs.google.material
-    //implementation libs.hai.foundation.core.viewmodel
 
     implementation libs.google.accompanist.systemuicontroller
 
@@ -176,9 +175,6 @@ dependencies {
     implementation libs.androidx.profileinstaller
 
     // Compose
-    // For Compose runtime by default coroutine runtime already included from ui, foundation, implicitly
-    // Not able to get rid of material lib due to we still use these component and not available yet in material3
-    // androidx.compose.material.ModalBottomSheetLayout
     implementation libs.androidx.compose.material
     implementation libs.androidx.compose.material3
     implementation libs.androidx.compose.material.iconsCore
@@ -188,10 +184,6 @@ dependencies {
     implementation libs.androidx.compose.ui
     implementation libs.androidx.compose.widget
 
-
-    ///////////////
-    // DATA SUPPORT
-    //////
 
     // SQL
     implementation libs.androidx.room.runtime
@@ -207,11 +199,6 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.15.0"))
     implementation("com.google.firebase:firebase-analytics")
 
-
-    ///////////////
-    // CORE
-    //////
-
     // Concurrent processing
     implementation libs.jetbrains.coroutines.android
 
@@ -221,34 +208,14 @@ dependencies {
 
     // Date time
     coreLibraryDesugaring(libs.android.desugarJdkLibs)
-    //implementation libs.hai.foundation.core.datetime
-
-    // Logger
-//    implementation libs.hai.foundation.core.loggr
-//    implementation libs.hai.foundation.lib.lifecycleloggr
 
     // Analytics
     implementation platform(libs.google.firebase)
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-perf'
     implementation 'com.google.firebase:firebase-crashlytics'
-    //implementation libs.hai.foundation.core.analytics
-    //implementation libs.hai.foundation.lib.analyticsmanager
-
-    ///////////////
-    // DEBUGGING SUPPORT
-    //////
 
     implementation libs.debugging.compose.uiTooling
-
-//    debugImplementation libs.hai.foundation.test.debug
-//    releaseImplementation libs.hai.foundation.test.debugnoop
-//    benchmarkImplementation libs.hai.foundation.test.debugnoop
-
-
-    ///////////////
-    // UNIT TEST SUPPORT
-    //////
 
     testImplementation libs.test.androidx.junit
     testImplementation libs.test.robolectric

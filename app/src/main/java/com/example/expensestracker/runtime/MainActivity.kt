@@ -14,7 +14,7 @@ class MainActivity : androidx.appcompat.app.AppCompatActivity() {
     private lateinit var windowState: com.example.expensestracker.foundation.window.WindowState
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        setTheme(R.style.Theme_Wallee_Light)
+        setTheme(R.style.Theme_Wallee_Night)
         super.onCreate(savedInstanceState)
 
         WindowCompat.setDecorFitsSystemWindows(window, false)

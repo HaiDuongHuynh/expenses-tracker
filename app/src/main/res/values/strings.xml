@@ -126,5 +126,6 @@
     <string name="balance_account_amount_change_by_record_reason_desc">Will create a correction transaction for it.</string>
 
     <string name="onboarding_title">Choose your country currency</string>
+    <string name="warning_negative_balance">Warning! Negative Balance!</string>
 
 </resources>

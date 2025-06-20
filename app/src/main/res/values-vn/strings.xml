@@ -127,5 +127,6 @@
     <string name="balance_account_amount_change_by_record_reason_desc">Sẽ tạo giao dịch sửa lỗi cho nó.</string>
 
     <string name="onboarding_title">Chọn loại tiền tệ của quốc gia bạn</string>
+    <string name="warning_negative_balance">Cảnh báo! Số dư âm!</string>
 
 </resources>
