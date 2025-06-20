@@ -8,7 +8,5 @@
 .externalNativeBuild
 .cxx
 /reports
-# Keystore files
-*.jks
 
 
